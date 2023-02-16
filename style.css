@@ -1,0 +1,217 @@
+.container{
+    display: flex;
+    width:1340px;
+    flex-direction: column;
+}
+.navbar{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo img{
+    width: 100px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+}
+.navigation li{
+    margin-left: 91px;
+    list-style: none;
+}
+.navigation li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+.navigation li a :hover{
+    color: rgb(24, 158, 192);
+}
+
+#pic1{
+    background-image: url(Image/homePage);
+    /* width: 1340px;
+    height: 645px; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.outer{
+    padding: 10px 0px; 
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.one h1{
+    font-size: 4em;
+    margin: 5px 0px;
+}
+.three{
+    align-items: center;
+    background-color: rgb(13, 73, 13);
+    width: 149px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    color: white;
+    margin: 11px 0px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.four{
+    font-size: 8.50px;
+}
+
+.main {
+    padding: 70px 0px;
+}
+.mainouter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.textone{
+    width: 400px;
+    margin: 20px;
+    padding: 20px 3px;  
+    
+}
+.mone{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 400px;
+    padding: 63px 63px;
+}
+.png {
+    width: 216px; 
+}
+.mone2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.mone2 h1{
+    font-family: cursive;
+}
+.mone2 img{
+    width: 200px;
+}
+.piccy{
+    margin: 0px 14px;
+    width: 310px;
+}
+
+#pic2{
+    background-image: url(Image/map.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.outerface{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number {
+    margin-left: 900px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.variable p{
+    margin-left: 902px;
+    margin-top: 0px;
+    font-family: cursive;
+}
+.footHead h1{
+    font-family: cursive;
+}
+.footContainer{
+    width: 654px;
+    margin: auto;
+    text-align: center;
+}
+
+.footImg{
+    padding: 26px 0px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footImg img{
+    width: 85px;
+}
+
+.last{
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+.last div{
+    margin: 10px;
+    align-items: center;
+}
+.lastFirst{
+    width: 332px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.lasImg{
+    width: 150px;
+    height: 130px;
+}
+.strip{
+    width: 5px;
+    height: 374px;
+    background-color: antiquewhite;
+}
+
+.lasheading{
+    margin: 0px;
+    font-size:23px;
+}
+.lasheading h3{
+    margin: 0px; 
+}
+.lastFirst div{
+    margin: 0px;
+}
+
+.strip1{
+    height: 3px;
+    background-color: rgb(19, 194, 218);
+}
+
+.reveiw{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.reveiw div{
+    margin: 10px;
+    width: 198px;
+}
+.pic3{
+    width: 71px;
+}
+.one p{
+    font-size:7px;
+}
+.one{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #ffeeee;
+    padding: 30px;
+}
